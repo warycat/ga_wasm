@@ -14,13 +14,13 @@ use tsp::{City, Sequence, RandomSequence, TSP, RenderSequence};
 
 pub const WIDTH: f64 = 1000.0;
 pub const HEIGHT: f64 = 1000.0;
-pub const N_CITIES: usize = 50;
+pub const N_CITIES: usize = 100;
 pub const N_POPULATION: usize = 40;
 pub const N_INDIVIDUALS_PER_PARENTS: usize = 3;
 pub const SELECTION_RATIO: f64 = 0.7;
 pub const MUTATION_RATE: f64 = 0.05;
 pub const REINSERTION_RATIO: f64 = 0.7;
-pub const GENERATION_LIMIT: u64 = 500;
+pub const GENERATION_LIMIT: u64 = 10000;
 
 
 fn window() -> Window {
