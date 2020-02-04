@@ -14,7 +14,7 @@ use tsp::{City, Sequence, RandomSequence, TSP, RenderSequence};
 
 pub const WIDTH: f64 = 1000.0;
 pub const HEIGHT: f64 = 1000.0;
-pub const N_CITIES: usize = 100;
+pub const N_CITIES: usize = 80;
 pub const N_POPULATION: usize = 40;
 pub const N_INDIVIDUALS_PER_PARENTS: usize = 3;
 pub const SELECTION_RATIO: f64 = 0.7;
