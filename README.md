@@ -1,3 +1,7 @@
+## [Demo](https://warycat.github.io/ga_wasm/)
+
+This demo project combines the use of webpack, wasm-pack, webassembly, stdweb, wasm-bindgen, genevo to make a animation of solving traveling salesman problem with genetic algorithm.
+
 ## How to install
 
 ```sh
