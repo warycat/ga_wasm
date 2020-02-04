@@ -10,7 +10,6 @@ pub use rand::{
 
 use crate::genetic::AsScalar;
 use rand_xoshiro::Xoshiro256Plus;
-use rand::rngs::OsRng;
 
 /// The `Prng` is the pseudo random number generator used through out this
 /// library.
